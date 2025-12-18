@@ -1,3 +1,6 @@
-google-generativeai==0.8.6
+# Use the new official SDK
+google-genai==1.56.0
+
+# Keep the Telegram library
 python-telegram-bot[all]==22.5
 python-dotenv==1.0.1
