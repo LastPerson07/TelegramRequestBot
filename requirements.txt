@@ -1,6 +1,6 @@
-# Use the new official SDK
-google-genai==1.56.0
+# NEW: The modern Google GenAI SDK (Required for 2025 models)
+google-genai==1.1.0
 
-# Keep the Telegram library
+# Telegram & Environment
 python-telegram-bot[all]==22.5
 python-dotenv==1.0.1
