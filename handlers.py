@@ -6,7 +6,7 @@ import config
 from config import ADMIN_CHAT_ID, logger
 from ai_engine import analyze_request, get_witty_rejection, get_admin_acceptance_msg
 
-START_IMAGE = "https://graph.org/file/YOUR_IMAGE_ID.jpg" # Ensure this is a valid URL
+START_IMAGE = "https://i.postimg.cc/gcNtrv0m/2.png" # Ensure this is a valid URL
 
 def get_eta(hours):
     d = datetime.now(timezone.utc) + timedelta(hours=hours)
@@ -86,4 +86,5 @@ async def admin_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         await context.bot.send_message(uid, msg)
     except Exception as e:
+
         logger.warning(f"Could not notify user: {e}")
