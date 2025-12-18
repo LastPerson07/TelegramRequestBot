@@ -51,5 +51,5 @@ def main():
     print("✅ Request Bot is running...\n")
     app.run_polling(close_loop=False)
 
-if name == "main":
+if __name__ == "__main__":
     main()
