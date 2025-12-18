@@ -1,8 +1,8 @@
-# Core Framework
-python-telegram-bot[all]==20.7
+# Latest stable version with explicit Python 3.13 support
+python-telegram-bot[all]==22.5
 
-# AI Engine
-google-generativeai==0.8.3
+# Latest Gemini SDK (replaces the older google-generativeai)
+google-genai==0.8.3
 
-# Environment & Utilities
+# Environment variable management
 python-dotenv==1.0.1
